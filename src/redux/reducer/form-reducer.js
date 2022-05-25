@@ -25,9 +25,12 @@ const userReducer = (state = innitialState, action) => {
         isEdit: true
       }
     case UPDATE_USER : 
+    const id = action.payload.id;
       return {
         ...state,
-        userList: [...state.userList, action.payload],
+        userList : state.userList.map(user=> {
+          return ( user.id == id ? action.payload :user )
+        }),
         isEdit:false
       }
     default:
