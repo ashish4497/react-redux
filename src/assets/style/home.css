@@ -1,0 +1,17 @@
+.h-p-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-container h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+
+}
+.btn {
+    height:30px;
+    width: 120px;
+    margin-right: 12px;
+    text-transform: uppercase;
+}

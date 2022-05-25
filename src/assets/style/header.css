@@ -1,0 +1,20 @@
+.header-parent-c {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.header-navigation-container {
+    display: flex;
+    justify-content: space-between;
+}
+.ul-li-items {
+    display: flex;
+}
+ul li {
+    margin-left: 18px;
+    list-style: none;  
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

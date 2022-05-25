@@ -1,0 +1,20 @@
+.list-item-container {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 18px 38px;
+  margin-bottom: 12px;
+}
+h3 {
+  text-align: center;
+}
+.list-item-container p {
+  text-transform: capitalize;
+}
+
+.icon-c {
+  margin-left: 28px;
+}
+
+.fas {
+  margin-left: 16px;
+  cursor: pointer;
+}
