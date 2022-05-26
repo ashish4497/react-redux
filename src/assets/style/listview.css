@@ -3,9 +3,15 @@
   padding: 18px 38px;
   margin-bottom: 12px;
 }
+
 h3 {
   text-align: center;
 }
+
+p {
+  text-transform: capitalize;
+}
+
 .list-item-container p {
   text-transform: capitalize;
 }
@@ -18,3 +24,4 @@ h3 {
   margin-left: 16px;
   cursor: pointer;
 }
+

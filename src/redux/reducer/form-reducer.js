@@ -11,12 +11,12 @@ const userReducer = (state = innitialState, action) => {
     case ADD_USER_INFO:
       return {
         ...state,
-        state: state.userList.push(action.payload)
+        userList : [...state.userList, action.payload]
       }
     case REMOVE_USER:
       return {
         ...state.userList,
-        userList: [...state.userList.filter(item => item.id !== action.payload)]
+        userList: state.userList.filter(item => item.id !== action.payload)
       }
     case EDIT_USER:
       return {
@@ -29,7 +29,7 @@ const userReducer = (state = innitialState, action) => {
       return {
         ...state,
         userList : state.userList.map(user=> {
-          return ( user.id == id ? action.payload :user )
+          return (user.id === id ? action.payload : user )
         }),
         isEdit:false
       }

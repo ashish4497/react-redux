@@ -22,7 +22,6 @@ export const editUser = (user) => {
 }
 
 export const updateUser = (updatedData) => {
-  console.log(updatedData,"log the updatedData ++++++");
   return {
     type : UPDATE_USER,
     payload : updatedData
